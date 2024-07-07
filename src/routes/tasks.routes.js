@@ -14,7 +14,7 @@ router.get("/tasks/:id", getById)
 
 router.post("/tasks", createTask)
 
-router.put("/tasks", updateTask)
+router.put("/tasks/:id", updateTask)
 
 router.delete("/tasks/:id", deleteTask) 
 
