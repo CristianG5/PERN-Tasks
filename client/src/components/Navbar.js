@@ -12,7 +12,7 @@ export default function Navbar() {
               <Link to="/" style={{textDecoration:'none', color: '#eee'}} >Pern Task</Link>    
             </Typography>
 
-            <Button variant="contained" color="primary" onClick={()=>navigate("/task/new")}>
+            <Button variant="contained" color="primary" onClick={()=>navigate("/tasks/new")}>
               New Task
             </Button>
 

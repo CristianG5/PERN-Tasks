@@ -12,7 +12,8 @@ export default function App() {
     <Container>
       <Routes>
         <Route path='/' element={<TasksList />}/>
-        <Route path='/task/new' element={<TasksForm />}/>
+        <Route path='/tasks/new' element={<TasksForm />}/>
+        <Route path='/tasks/:id/edit' element={<TasksForm />}/>
       </Routes>
       </Container>
     </BrowserRouter>
