@@ -80,13 +80,13 @@ export default function TasksForm() {
             textAlign='center'
             color='white'
           >
-            {editing ? 'Edit task' : 'Create Task'}
+            {editing ? 'Editar Tarea' : 'Crear Tarea'}
           </Typography>
           <CardContent>
             <form onSubmit={handleSubmit}>
               <TextField 
                 variant='filled'
-                label='Write your title'
+                label='Ingresa un título'
                 sx={{
                   display:'block',
                   margin:'.5rem 0'
@@ -111,7 +111,7 @@ export default function TasksForm() {
 
               <TextField 
                 variant='filled'
-                label='Write your description'
+                label='Ingresa una descripcion'
                 multiline
                 rows={4}
                 sx={{
@@ -145,7 +145,7 @@ export default function TasksForm() {
                 <CircularProgress 
                   color='inherit'
                   size={24}
-                /> : 'Save'}
+                /> : 'Guardar'}
               </Button>
             </form>
           </CardContent>

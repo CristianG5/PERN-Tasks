@@ -32,7 +32,7 @@ export default function TasksList() {
 
   return (
     <>
-      <h1>Task List</h1>
+      <h1>Lista de tareas</h1>
     {
       tasks.map(task =>(
         <Card 
@@ -61,7 +61,7 @@ export default function TasksList() {
               color='inherit'
               onClick={() => navigate(`/tasks/${task.id}/edit`)}
             >
-              Edit
+              Editar
             </Button>
 
             <Button
@@ -72,7 +72,7 @@ export default function TasksList() {
                 marginLeft:'.5rem'
               }}
             >
-              Delete
+              Eliminar
             </Button>
             </div>
           </CardContent>
